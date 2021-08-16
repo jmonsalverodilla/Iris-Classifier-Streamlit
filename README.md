@@ -2,7 +2,7 @@
 
 Simple dashboard for making predictions for the iris dataset including SHAP values.
 
-![Demo](streamlit-iris_app-2021-08-16-20-08-53.mp4)
+![](streamlit-iris_app.gif)
 
 <p align="center">
 <a href="https://iris-classifier-streamlit-app.herokuapp.com/" target="blank">
