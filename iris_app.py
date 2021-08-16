@@ -15,6 +15,7 @@ virginica = Image.open('./static/iris_virginica.jpg')
 
 
 ##############STREAMLIT APP##################
+st.set_page_config(layout="wide")
 
 #TITLE
 st.title("Iris flower species Classification App")
