@@ -47,8 +47,6 @@ if st.button("Click Here to Classify"):
 	with col1:
 		prediction_class = loaded_model.predict(df)[0]
 		prediction_prob = round(loaded_model.predict_proba(df).max() * 100, 1)
-		print(prediction_class);
-		print(prediction_prob)
 
 		st.markdown(f"<h2 style='text-align: left; color: #4169e1;'> {prediction_class} with probability {prediction_prob} % </h2>", unsafe_allow_html=True)
 
@@ -65,8 +63,6 @@ if st.button("Click Here to Classify"):
 		explainer = shap.TreeExplainer(loaded_model)
 		shap_values = explainer.shap_values(df)
 
-		print(shap_values)
-
 		shap_plot_reprs = []
 
 		for i in range(3):
@@ -75,6 +71,7 @@ if st.button("Click Here to Classify"):
 										df,
 										feature_names=feature_names,
 										out_names=class_names[i])
+			print(shap_plot)
 			shap_plot_reprs.append(shap_plot._repr_html_())
 
 		shap_html_repr = "".join(shap_plot_reprs)
