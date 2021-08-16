@@ -4,7 +4,6 @@ import pandas as pd
 import joblib
 from PIL import Image
 import shap
-import numpy as np
 
 ###############CODE#####################
 loaded_model = joblib.load("./obj/rf_model.pkl")
