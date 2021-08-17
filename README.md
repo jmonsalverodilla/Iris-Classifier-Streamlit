@@ -6,7 +6,7 @@ Simple dashboard for making predictions for the iris dataset including SHAP valu
 
 <p align="center">
 <a href="https://iris-classifier-streamlit-app.herokuapp.com/" target="blank">
-    <img align="center" src="https://img.shields.io/badge/Heroku-6762A6?style=for-the-badge&logo=heroku&logoColor=white"/>
+    <img align="center" src="https://img.shields.io/badge/LINK TO Heroku-6762A6?style=for-the-badge&logo=heroku&logoColor=white"/>
 </a>  
 
 ## Usage
